@@ -1,0 +1,34 @@
+{
+  "name": "add-n",
+  "version": "1.0.0",
+  "description": "addN is a function that initially takes a number and assign it to an increment variable. Calling the function again will add any number to the increment and return the result.",
+  "main": "src/add-n.ts",
+  "scripts": {
+    "test": "jest --coverage && npm run eslint",
+    "eslint": "eslint ./src/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebabel-eu/add-n.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Thomas Amar <hello@ebabel.eu>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ebabel-eu/add-n/issues"
+  },
+  "homepage": "https://github.com/ebabel-eu/add-n#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.13",
+    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "@typescript-eslint/parser": "^1.9.0",
+    "acorn": "^6.1.1",
+    "acorn-jsx": "^5.0.1",
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.1"
+  }
+}
